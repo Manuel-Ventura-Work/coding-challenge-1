@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* DIVS  */
+.background {
+  background-color: darkslategray;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-area {
+  margin-bottom: 10%;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  margin: 0 auto;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+.socialmediacenter {
+  margin: 1.3% auto;
+}
+.socialmedia {
+  margin: 0 20px;
+  min-width: 100px;
+}
+.logo-section {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  width: 60%;
+  padding-top: 6%;
+}
+.truckimage {
+  width: 100%;
+}
+.inner-background {
+  background-image: url(imgcomponents/darkbg.jpg);
+  width: 100%;
+  height: 60%;
+  max-height: 400px;
+  object-fit: fill;
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+}
+.overlay-image {
+  background-image: url(imgcomponents/burnthouse.jpg);
+  background-size: 80%;
+  width: 90%;
+  height: 100%;
+  background-repeat: no-repeat;
+  object-fit: fill;
+  background-position: 70% 50%;
+}
+.overlay-text {
+  width: 50%;
+  padding: 5% 0% 0 10%;
+}
+
+.gridcontainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+.griditem {
+  display: flex;
+  flex-direction: column;
+}
+
+.viewbutton {
+  margin: 4% auto;
+  display: flex;
+  justify-content: center;
+}
+.quotediv {
+  padding: 30px;
+}
+.testimonialdiv {
+  background-image: url(imgcomponents/darkbg.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 9%;
+  
+}
+
+/*TEXT*/
+.testimonial {
+  color: white;
+  font-family: sans-serif;
+  padding-top: 20px;
+}
+.quote {
+  font-family: sans-serif;
+}
+.header-text {
+  font-family: sans-serif;
+  text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+             1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+.sub-text {
+  font-family: sans-serif;
+  text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+  1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+.posting-text {
+  font-family: sans-serif;
+  padding-left: 3%;
+  padding-right: 1%;
+  font-size: 12px;
+}
+.posting-header-text {
+  font-family: sans-serif;
+  padding-left: 3%;
+  padding-right: 1%;
+  padding-top: 2%;
+  font-size: 20px;
+}
+.promo-text {
+  color: red;
+  text-align: center;
+}
+/* COLORS */
+
+.light-text {
+  color: white;
+}
+.graybg {
+  background-color: rgb(221, 221, 221);
+}
+.infored {
+  color: red;
+}
+
+/* MISC (DIVIDER) */
+.red-divider {
+  width: 50%;
+  height: 1px;
+  margin: 10px auto;
+  background: red;
+  border-bottom: 3px solid red;
+}
+
+/* MISC (BUTTON) */
+.learnmore {
+  background-color: red;
+  color: white;
+  width: 50%;
+  margin: 15px auto;
+  font-size: 20px;
+  padding: 5px;
+}
+.viewall {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+.gethelp {
+  background: white;
+  color: red;
+  font-size: 10px;
+  font-weight: 900;
+  padding: 10px;
+  width: 20%;
+  margin: 0 auto;
+}
+
+/* MISC (PADDING) */
+
+.paddingtop50 {
+  padding-top: 50px;
+}
